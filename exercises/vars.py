@@ -2,6 +2,9 @@
 # and prints the result of the operation
 
 def print_calc_result(values, operator):
+    """
+    Prints the result of the operation on the given values.
+    """
     result = 0
     for value in values:
         if operator == '+':
